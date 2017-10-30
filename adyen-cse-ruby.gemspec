@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'adyen_cse/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "adyen-cse-ruby"
+  spec.name          = "adyen-cse-ruby-2"
   spec.version       = AdyenCse::VERSION
-  spec.authors       = ["Joey Cheng"]
-  spec.email         = ["jooeycheng@gmail.com"]
+  spec.authors       = ["Vishal Banthia"]
+  spec.email         = ["vishal.banthia.vb@gmail.com"]
 
   spec.summary       = %q{Adyen Client-side encryption library for Ruby}
   spec.description   = %q{Adyen's Client Side Encryption (CSE) library for Ruby.}
-  spec.homepage      = "https://github.com/jooeycheng/adyen-cse-ruby"
+  spec.homepage      = "https://github.com/vbanthia/adyen-cse-ruby"
   spec.licenses      = ["Apache-2.0"]
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
